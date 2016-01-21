@@ -1,0 +1,25 @@
+<!-- Contact -->
+<h3>Contact Me</h3>
+<p>Eben is available for private and group lessons. For inquiries, please send a message:</p>
+<form action="//formspree.io/eben@powerfeelgolf.com" method="POST">
+    <div class="row uniform">
+        <div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+        <div class="6u 12u(xsmall)"><input type="email" name="_replyto" id="email" placeholder="Email" /></div>
+    </div>
+    <div class="row uniform">
+        <div class="12u"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+    </div>
+    <div class="row uniform">
+        <div class="12u"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+    </div>
+    <div class="row uniform">
+        <div class="12u">
+            <ul class="actions">
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks" />
+                <li><input type="submit" class="special" value="Send Message" /></li>
+                <li><input type="reset" value="Reset Form" /></li>
+            </ul>
+        </div>
+    </div>
+</form>
